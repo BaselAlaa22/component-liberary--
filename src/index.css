@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(229, 231, 235);
+}
+h1 {
+  margin: 20px auto;
+  font-size: 2.5rem;
+  text-align: center;
+}
+h1,
+h3 {
+  font-family: "Permanent Marker", cursive;
+}
+.badge-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 12px;
+  margin: 20px auto;
+}
+
+.badge {
+  font-size: 0.85rem;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  min-width: 67px;
+  min-height: 24px;
+  padding: 2px 12px;
+}
+
+.badge.square {
+  border-radius: 4px;
+}
+
+.badge.pill {
+  border-radius: 12px;
+}
+
+.badge.grey {
+  color: rgba(31, 41, 55, 1);
+  background-color: rgb(243, 244, 246);
+}
+
+.badge.red {
+  background-color: rgb(254, 226, 226);
+  color: rgb(153, 27, 27);
+}
+
+.badge.yellow {
+  background-color: rgb(254, 243, 199);
+  color: rgb(146, 64, 14);
+}
+
+.badge.green {
+  background-color: rgb(209, 250, 229);
+  color: rgb(6, 95, 70);
+}
+
+.badge.blue {
+  background-color: rgb(219, 234, 254);
+  color: rgb(30, 64, 175);
+}
+
+.badge.indigo {
+  background-color: rgb(224, 231, 255);
+  color: rgb(55, 48, 163);
+}
+.badge.purple {
+  background-color: rgb(237, 233, 254);
+  color: rgb(91, 33, 182);
+}
+
+.badge.pink {
+  background-color: rgb(252, 231, 243);
+  color: rgb(157, 23, 77);
+}
