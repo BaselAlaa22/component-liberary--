@@ -1,4 +1,4 @@
-import React from "react";
+import "./styles/badge.css";
 
 export default function Badge({
   variant = "grey",
