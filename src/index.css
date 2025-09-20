@@ -7,6 +7,9 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
+  padding: 20px;
+  min-height: 100vh;
+  padding-bottom: 100px;
   background-color: rgb(229, 231, 235);
 }
 h1 {
@@ -16,4 +19,7 @@ h1 {
 h1,
 h3 {
   font-family: "Permanent Marker", cursive;
+}
+.spacer {
+  height: 100px;
 }
